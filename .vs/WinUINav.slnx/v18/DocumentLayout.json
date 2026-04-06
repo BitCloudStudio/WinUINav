@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\pages\\filespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:pages\\filespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\controls\\customcaptionbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:controls\\customcaptionbuttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\controls\\customcaptionbuttons.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:controls\\customcaptionbuttons.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|c:\\users\\administrator\\source\\repos\\winuinav\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EA3264C-66D5-44B6-AAC9-8C0ECD68447C}|WinUINav.csproj|solutionrelative:pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Pages\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T13:05:48.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomCaptionButtons.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Controls\\CustomCaptionButtons.xaml",
+              "RelativeDocumentMoniker": "Controls\\CustomCaptionButtons.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Controls\\CustomCaptionButtons.xaml",
+              "RelativeToolTip": "Controls\\CustomCaptionButtons.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T15:21:07.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\AboutPage.xaml",
+              "RelativeToolTip": "Pages\\AboutPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T13:06:12.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs",
+              "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.i.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:22:35.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAEwK8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:05:22.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:55:53.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\SettingsPage.xaml",
+              "RelativeToolTip": "Pages\\SettingsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T13:06:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T13:05:15.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomCaptionButtons.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Controls\\CustomCaptionButtons.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\CustomCaptionButtons.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Controls\\CustomCaptionButtons.xaml.cs",
+              "RelativeToolTip": "Controls\\CustomCaptionButtons.xaml.cs",
+              "ViewState": "AgIAAPMCAAAAAAAAAAAiwAYDAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:21:37.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\FilesPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\FilesPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Pages\\FilesPage.xaml",
+              "RelativeToolTip": "Pages\\FilesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T15:06:44.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\Package.appxmanifest",
+              "RelativeToolTip": "Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2026-04-06T13:48:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs",
+              "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WinUINav\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs",
+              "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\MainWindow.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:46:26.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
