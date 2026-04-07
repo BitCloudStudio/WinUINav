@@ -13,40 +13,22 @@
     </Window.SystemBackdrop>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Thickness x:Key="NavigationViewContentMargin">0,48,0,0</Thickness>
+            <Thickness x:Key="NavigationViewHeaderMargin">56,34,0,0</Thickness>
+            <Thickness x:Key="NavigationViewPageContentMargin">56,24,56,0</Thickness>
+            <CornerRadius x:Key="NavigationViewContentGridCornerRadius">8,0,0,0</CornerRadius>
+            <Thickness x:Key="NavigationViewContentGridBorderThickness">1,1,0,0</Thickness>
+        </Grid.Resources>
 
-        <!-- WinUI 3 TitleBar 组件 -->
-        <Grid x:Name="AppTitleBar"
-                  Grid.Row="0"
-                  Height="48"
-                  Margin="50,0,0,0">
-
-            <TextBlock x:Name="TitleText"
-                       Text="WinUINav"
-                       Padding="0,14,0,0"
-                       Opacity="0.75"
-                       TextTrimming="CharacterEllipsis"/>
-
-            <controls:CustomCaptionButtons x:Name="CaptionButtons"
-                               Grid.Column="1"
-                               HorizontalAlignment="Right"
-                               VerticalAlignment="Stretch"/>
-            
-        </Grid>
-
-        <!-- 主体 NavigationView -->
         <NavigationView x:Name="RootNavView"
-                        Grid.Row="1"
-                        PaneDisplayMode="Left"
-                        IsBackButtonVisible="Visible"
-                        IsPaneToggleButtonVisible="True"
-                        Loaded="RootNavView_Loaded"
-                        BackRequested="RootNavView_BackRequested"
-                        SelectionChanged="RootNavView_SelectionChanged"
-                        DisplayModeChanged="RootNavView_DisplayModeChanged">
+                    IsBackButtonVisible="Visible"
+                    IsTitleBarAutoPaddingEnabled="False"
+                    IsPaneToggleButtonVisible="True"
+                    PaneDisplayMode="Auto"
+                    Loaded="RootNavView_Loaded"
+                    BackRequested="RootNavView_BackRequested"
+                    SelectionChanged="RootNavView_SelectionChanged">
 
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="首页" Tag="home">
@@ -68,7 +50,40 @@
                 </NavigationViewItem>
             </NavigationView.MenuItems>
 
-            <Frame x:Name="ContentFrame" Navigated="ContentFrame_Navigated"/>
+            <Grid Margin="{StaticResource NavigationViewPageContentMargin}">
+                <Frame x:Name="ContentFrame" Navigated="ContentFrame_Navigated"/>
+            </Grid>
         </NavigationView>
+
+        <Grid x:Name="AppTitleBar"
+          Canvas.ZIndex="1"
+          Height="{Binding ElementName=RootNavView, Path=CompactPaneLength}"
+          VerticalAlignment="Top"
+          IsHitTestVisible="True">
+
+            <Grid Background="Transparent">
+                <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        Margin="0,0,0,0">
+                    <Image Source="/Assets/Square44x44Logo.png"
+                       Width="24"
+                       Height="24"
+                       VerticalAlignment="Center"
+                       Stretch="Uniform"/>
+
+                    <TextBlock x:Name="TitleText"
+                           Text="WinUINav"
+                           Margin="12,0,0,0"
+                           VerticalAlignment="Center"
+                           Opacity="0.75"
+                           FontSize="12"
+                           TextTrimming="CharacterEllipsis"/>
+                </StackPanel>
+
+                <controls:CustomCaptionButtons x:Name="CaptionButtons"
+                                           HorizontalAlignment="Right"
+                                           VerticalAlignment="Stretch"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

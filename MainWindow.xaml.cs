@@ -34,6 +34,67 @@ namespace WinUINav
         [DllImport("user32.dll")]
         private static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
+        // --- 限制最小窗口所需定义的常量、结构体和方法 ---
+        private const uint WM_GETMINMAXINFO = 0x0024;
+        private SUBCLASSPROC? _subclassProc;
+
+        [StructLayout(LayoutKind.Sequential)]
+        public struct POINT
+        {
+            public int x;
+            public int y;
+        }
+
+        [StructLayout(LayoutKind.Sequential)]
+        public struct MINMAXINFO
+        {
+            public POINT ptReserved;
+            public POINT ptMaxSize;
+            public POINT ptMaxPosition;
+            public POINT ptMinTrackSize;
+            public POINT ptMaxTrackSize;
+        }
+
+        private delegate IntPtr SUBCLASSPROC(IntPtr hWnd, uint uMsg, IntPtr wParam, IntPtr lParam, uint uIdSubclass, IntPtr dwRefData);
+
+        [DllImport("comctl32.dll", SetLastError = true)]
+        private static extern bool SetWindowSubclass(IntPtr hWnd, SUBCLASSPROC pfnSubclass, uint uIdSubclass, IntPtr dwRefData);
+
+        [DllImport("comctl32.dll", SetLastError = true)]
+        private static extern IntPtr DefSubclassProc(IntPtr hWnd, uint uMsg, IntPtr wParam, IntPtr lParam);
+
+        [DllImport("user32.dll")]
+        private static extern uint GetDpiForWindow(IntPtr hwnd);
+
+        private IntPtr WindowSubclassProc(IntPtr hWnd, uint uMsg, IntPtr wParam, IntPtr lParam, uint uIdSubclass, IntPtr dwRefData)
+        {
+            if (uMsg == WM_GETMINMAXINFO)
+            {
+                // 获取系统传递过来的指针数据
+                MINMAXINFO mmi = (MINMAXINFO)Marshal.PtrToStructure(lParam, typeof(MINMAXINFO))!;
+
+                // 获取当前窗口的 DPI，计算缩放因子 (96 是标准 100% 缩放的 DPI)
+                uint dpi = GetDpiForWindow(hWnd);
+                float scalingFactor = (float)dpi / 96f;
+
+                // 【设置你想要的最小宽度和高度】
+                // 例如这里限制最小尺寸为 800 x 600
+                int minWidth = 800;
+                int minHeight = 600;
+
+                mmi.ptMinTrackSize.x = (int)(minWidth * scalingFactor);
+                mmi.ptMinTrackSize.y = (int)(minHeight * scalingFactor);
+
+                // 将修改后的结构体写回内存
+                Marshal.StructureToPtr(mmi, lParam, false);
+
+                // 返回 IntPtr.Zero 告诉系统该消息我们已处理完成
+                return IntPtr.Zero;
+            }
+
+            // 对于其他消息，调用默认处理过程
+            return DefSubclassProc(hWnd, uMsg, wParam, lParam);
+        }
         public MainWindow()
         {
             InitializeComponent();
@@ -44,6 +105,12 @@ namespace WinUINav
 
             // 移除 WS_THICKFRAME 位
             SetWindowLong(hWnd, GWL_STYLE, style & ~(int)WS_THICKFRAME & ~(int)WS_MAXIMIZEBOX);
+
+            // 【新增】挂载子类化拦截器
+            _subclassProc = new SUBCLASSPROC(WindowSubclassProc);
+            SetWindowSubclass(hWnd, _subclassProc, 1, IntPtr.Zero);
+
+            this.ExtendsContentIntoTitleBar = true;
 
             LoadAndApplyTheme();
             EnsureAppWindow();
@@ -65,6 +132,31 @@ namespace WinUINav
 
             Activated += MainWindow_Activated;
             Closed += MainWindow_Closed;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            UpdateTitleBarMargin();
+        }
+
+        private void RootNavView_Loaded(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(HomePage));
+            UpdateTitleBarMargin();
+        }
+
+        private void RootNavView_DisplayModeChanged(NavigationView sender, NavigationViewDisplayModeChangedEventArgs args)
+        {
+            UpdateTitleBarMargin();
+        }
+
+        private void UpdateTitleBarMargin()
+        {
+            AppTitleBar.Margin = new Thickness(
+                RootNavView.CompactPaneLength * (RootNavView.DisplayMode == NavigationViewDisplayMode.Minimal ? 2 : 1),
+                0,
+                0,
+                0);
         }
 
 
@@ -167,45 +259,6 @@ namespace WinUINav
             if (ContentFrame.CanGoBack)
             {
                 ContentFrame.GoBack();
-            }
-        }
-        private void RootNavView_Loaded(object sender, RoutedEventArgs e)
-        {
-            AdjustNavButtons();
-
-            ContentFrame.Navigate(typeof(HomePage));
-        }
-
-        private void RootNavView_DisplayModeChanged(NavigationView sender, NavigationViewDisplayModeChangedEventArgs args)
-        {
-            AdjustNavButtons();
-        }
-
-        private void AdjustNavButtons()
-        {
-            // 汉堡按钮
-            var toggleButton =
-                FindElementByName<Button>(RootNavView, "TogglePaneButton") ??
-                FindElementByName<Button>(RootNavView, "PaneToggleButton");
-
-            // 返回按钮
-            var backButton =
-                FindElementByName<Button>(RootNavView, "NavigationViewBackButton") ??
-                FindElementByName<Button>(RootNavView, "BackButton");
-
-            if (toggleButton != null)
-                toggleButton.Translation = new Vector3(0, -48, 0); // 改这里，数值越大越往上
-
-            if (backButton != null)
-                backButton.Translation = new Vector3(0, -48, 0);   // 改这里，数值越大越往上
-
-            // 找到包含菜单项的 ScrollViewer 并把它也往上提
-            var menuItemsScrollViewer = FindElementByName<ScrollViewer>(RootNavView, "MenuItemsScrollViewer");
-
-            if (menuItemsScrollViewer != null)
-            {
-                // 这里的数值可以根据你想要的间距微调
-                menuItemsScrollViewer.Translation = new Vector3(0, -48, 0);
             }
         }
 
