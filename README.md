@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2011-0078D4?style=flat-square">
-  <img alt="IDE" src="https://img.shields.io/badge/IDE-Visual%20Studio%202026-5C2D91?style=flat-square">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-black?style=flat-square">
+  <img alt="平台" src="https://img.shields.io/badge/Platform-Windows%2011-0078D4?style=flat-square">
+  <img alt="开发环境" src="https://img.shields.io/badge/IDE-Visual%20Studio%202026-5C2D91?style=flat-square">
+  <img alt="协议" src="https://img.shields.io/badge/License-MIT-black?style=flat-square">
   <a href="https://t.me/WinUINavGroup">
-    <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+    <img alt="Telegram群组" src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
   <a href="https://t.me/WinUINav">
-    <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+    <img alt="Telegram频道" src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
   </a>
 </p>
 
