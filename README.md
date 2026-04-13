@@ -17,12 +17,12 @@
     </td>
     <td align="center">
       <a href="https://t.me/WinUINavGroup">
-        <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-群组?style=flat-square&logo=telegram&logoColor=white">
+        <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-%E7%BE%A4%E7%BB%84-26A5E4?style=flat-square&logo=telegram&logoColor=white">
       </a>
     </td>
     <td align="center">
       <a href="https://t.me/WinUINav">
-        <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-频道?style=flat-square&logo=telegram&logoColor=white">
+        <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-%E9%A2%91%E9%81%93-26A5E4?style=flat-square&logo=telegram&logoColor=white">
       </a>
     </td>
   </tr>
