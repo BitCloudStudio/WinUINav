@@ -1,0 +1,12 @@
+<Page
+    x:Class="WinUINav.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="Transparent" Padding="32">
+        <StackPanel Spacing="12">
+            <TextBlock Text="关于"
+                       FontSize="26"/>
+        </StackPanel>
+    </Grid>
+</Page>
