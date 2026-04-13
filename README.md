@@ -8,14 +8,9 @@
   <img alt="Platform" src="https://img.shields.io/badge/平台-Windows%2011-0078D4?style=flat-square">
   <img alt="IDE" src="https://img.shields.io/badge/开发环境-Visual%20Studio%202026-5C2D91?style=flat-square">
   <img alt="License" src="https://img.shields.io/badge/协议-MIT-black?style=flat-square">
-  <div>
-    <a href="https://t.me/WinUINavGroup">
-      <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram群组-26A5E4?style=flat-square&logo=telegram&logoColor=white">
-    </a>
-    <a href="https://t.me/WinUINav">
-      <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram频道-26A5E4?style=flat-square&logo=telegram&logoColor=white">
-    </a>
-  </div>
+
+  [![Telegram 群组](https://img.shields.io/badge/Telegram-群组-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/WinUINavGroup)
+  [![Telegram 频道](https://img.shields.io/badge/Telegram-频道-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/WinUINavGroup)
 </p>
 
 ---
