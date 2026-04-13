@@ -69,7 +69,7 @@ WinUINav 适合作为以下类型项目的起始模板：
 
 ### 环境要求
 
-- Windows 11 24H2以上
+- Windows 11 24H2以上（25H2最佳）
 - Visual Studio 2026
 
 ### 使用方式
