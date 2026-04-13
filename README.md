@@ -42,11 +42,15 @@ WinUINav 是一个可直接作为项目起点使用的桌面应用模板。
 
 ### 主界面
 
-![Main Preview](./preview/assets/preview-main.png)
+![Main Preview](./preview/assets/1.png)
 
 ### 窗口效果
 
-![Window Preview](./preview/assets/preview-window.png)
+![Window Preview](./preview/assets/2.png)
+
+![Window Preview](./preview/assets/3.png)
+
+![Window Preview](./preview/assets/4.png)
 
 ---
 
