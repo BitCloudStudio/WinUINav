@@ -8,6 +8,12 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%2011-0078D4?style=flat-square">
   <img alt="IDE" src="https://img.shields.io/badge/IDE-Visual%20Studio%202026-5C2D91?style=flat-square">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-black?style=flat-square">
+  <a href="https://t.me/WinUINavGroup">
+    <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  </a>
+  <a href="https://t.me/WinUINav">
+    <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-Channel-26A5E4?style=flat-square&logo=telegram&logoColor=white">
+  </a>
 </p>
 
 ---
@@ -69,7 +75,7 @@ WinUINav 适合作为以下类型项目的起始模板：
 
 ### 环境要求
 
-- Windows 11 24H2以上（25H2最佳）
+- Windows 11 24H2 及以上（推荐 25H2）
 - Visual Studio 2026
 
 ### 使用方式
