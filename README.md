@@ -12,8 +12,6 @@
     <a href="https://t.me/WinUINavGroup">
       <img alt="Telegram Group" src="https://img.shields.io/badge/Telegram群组-26A5E4?style=flat-square&logo=telegram&logoColor=white">
     </a>
-  </div>
-  <div>
     <a href="https://t.me/WinUINav">
       <img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram频道-26A5E4?style=flat-square&logo=telegram&logoColor=white">
     </a>
